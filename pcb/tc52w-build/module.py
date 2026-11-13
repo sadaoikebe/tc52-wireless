@@ -317,15 +317,7 @@ def north(bd, K, SV, DV):
     T('GND', [qq['1'], (qq['1'][0] - 0.5, qq['1'][1]), gv], 0.25)
     bd.via('GND', *gv)
     T('GND', [c3b, (21.6, 59.6), gv], 0.3)
-    # polarity mark at pin 1 (BAT+), as on the TS52K wireless board
-    t = pcbnew.PCB_TEXT(bd.b)
-    t.SetText('+')
-    t.SetLayer(pcbnew.B_SilkS)
-    t.SetPosition(V(j1[0] + 1.25, j1[1] - 0.6))
-    t.SetTextSize(pcbnew.VECTOR2I(MM(1.0), MM(1.0)))
-    t.SetTextThickness(MM(0.18))
-    t.SetMirrored(True)
-    bd.b.Add(t)
+    # polarity marks at J3 ("+" at pin 1 = BAT+, "-" at pin 2): silk.py, with the other orientation marks
     # ---- MCU_VBUS: R4 -> north of R3 -> between Q1 / J3 and the USB pair -> hop
     hx, _, hn = HOP['MCU_VBUS']
     T('MCU_VBUS', [r4b, (21.6, 54.0), (23.5, 54.0), (hx, 54.0 + hx - 23.5), (hx, hn)], 0.3)

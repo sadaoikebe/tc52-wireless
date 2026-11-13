@@ -1,6 +1,6 @@
 {
   "source_sha256": {
-    "ts52k.kicad_pcb": "0cd4ef6eb3b2f2053d48647f03231c47fcebf7dbed2114fb05731bf0c477d676",
+    "ts52k.kicad_pcb": "502b6b1c8ea740579e31323c7402b1f2fa960142a59dd764fd4c45916dc44e99",
     "ts52k.kicad_pro": "456e311310167e57b7917148dc601dbe9dac896d5e98f0399e404662c57f8f22",
     "ts52k.kicad_sch": "07cd28bad4bc14725cab95afc9581abbdd4ef4418a4a10965596d8e7549c3935",
     "mdbt50q.kicad_sch": "172a52a603c5d48e69b067ede7d999320835a03c474cd81a97b6467cf3132a1f",
@@ -31,7 +31,7 @@
     "ts52k.pretty/VQFN-16-1EP_3x3mm_P0.5mm_EP1.68x1.68mm.kicad_mod": "f68d777c2406c4c6178fdba99f3938a0ec0b5a827706f5c64a08157ce5117714"
   },
   "output_sha256": {
-    "gerber/ts52k-gerbers.zip": "7fe2c9dfa0a2cd6bcc3d3fd62f0883430779f623060ecd0c990f96b103919457",
+    "gerber/ts52k-gerbers.zip": "d7c64a5f81a8775e4fc3285645b2f821ed164590d51f0bda6dc5b1b93691a3fe",
     "assembly/ts52k-bom.csv": "e4b4b594379114459851151954238d3caebc8e4cf21aeb368390970bc29b3405",
     "assembly/ts52k-cpl.csv": "ba79bc76674818ac9ae333ffe5e28e1dde1142eb9ead524a1c3d1255a5f5e946"
   },
@@ -40,6 +40,6 @@
   "stackup_order_note": "4 layers, 1.6 mm, stack JLC04161H-7628 (L1-L2 and L3-L4: 7628 prepreg 0.2104 mm). Select it explicitly when ordering (impedance control: yes); thinner prepregs (3313, 1080) are not acceptable.",
   "assembly_references": 67,
   "bom_line_items": 31,
-  "drc_warnings": 8,
+  "drc_warnings": 7,
   "erc_warnings": 0
 }

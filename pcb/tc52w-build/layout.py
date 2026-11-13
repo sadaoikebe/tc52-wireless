@@ -11,6 +11,7 @@ from brd import B, V, MM, mm, L1, L2, L3, L4, offset
 import east
 import finish
 import module
+import silk
 
 KN = M.key_net()
 ROW_OF = {k: int(KN[k][0][3:]) for k in KN}
@@ -305,4 +306,5 @@ def run(bd, keys, stage):
     module.fence(bd, K)
     zones_stage(bd)
     module.zones(bd, K)
+    silk.run(bd)
     fill(bd)
